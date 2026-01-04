@@ -1,0 +1,102 @@
+.hero {
+    position: relative;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    padding: 2rem;
+}
+
+.content {
+    text-align: center;
+    z-index: 10;
+    max-width: 800px;
+}
+
+.title {
+    font-size: 5rem;
+    font-weight: 800;
+    letter-spacing: -0.05em;
+    margin-bottom: 1.5rem;
+    line-height: 1.1;
+}
+
+.gradientText {
+    background: linear-gradient(135deg, var(--primary), var(--secondary));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.subtitle {
+    font-size: 1.5rem;
+    color: #a0a0b0;
+    margin-bottom: 3rem;
+    line-height: 1.6;
+}
+
+.actions {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+}
+
+.primaryButton,
+.secondaryButton {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.75rem 1.5rem;
+    border-radius: 50px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.primaryButton {
+    background: var(--primary);
+    color: var(--background);
+}
+
+.primaryButton:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 0 20px rgba(0, 240, 255, 0.4);
+}
+
+.secondaryButton {
+    background: transparent;
+    color: var(--foreground);
+    border: 1px solid var(--border);
+}
+
+.secondaryButton:hover {
+    border-color: var(--foreground);
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.orb {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    height: 600px;
+    background: radial-gradient(circle, rgba(112, 0, 255, 0.15) 0%, rgba(5, 5, 16, 0) 70%);
+    border-radius: 50%;
+    z-index: 0;
+    pointer-events: none;
+}
+
+@media (max-width: 768px) {
+    .title {
+        font-size: 3.5rem;
+    }
+
+    .subtitle {
+        font-size: 1.1rem;
+    }
+
+    .actions {
+        flex-direction: column;
+    }
+}

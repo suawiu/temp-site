@@ -1,0 +1,108 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 4rem 2rem;
+    min-height: 100vh;
+}
+
+.backLink {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #888;
+    margin-bottom: 3rem;
+    transition: color 0.2s;
+}
+
+.backLink:hover {
+    color: var(--primary);
+}
+
+.header {
+    margin-bottom: 4rem;
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 2rem;
+}
+
+.meta {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    margin-bottom: 1.5rem;
+    font-size: 0.9rem;
+    color: #888;
+}
+
+.category {
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 0.2rem 0.6rem;
+    border-radius: 4px;
+}
+
+.physics {
+    color: var(--primary);
+    background: rgba(0, 240, 255, 0.1);
+}
+
+.projects {
+    color: var(--secondary);
+    background: rgba(112, 0, 255, 0.1);
+}
+
+.opinions {
+    color: var(--accent);
+    background: rgba(255, 0, 85, 0.1);
+}
+
+.date,
+.readTime {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+}
+
+.title {
+    font-size: 2.5rem;
+    font-weight: 800;
+    line-height: 1.2;
+}
+
+.content {
+    font-size: 1.125rem;
+    line-height: 1.8;
+    color: #d0d0d0;
+}
+
+.content p {
+    margin-bottom: 1.5rem;
+}
+
+.content h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 2.5rem 0 1rem;
+    color: var(--foreground);
+}
+
+.content ul {
+    margin-bottom: 1.5rem;
+    padding-left: 1.5rem;
+}
+
+.content li {
+    margin-bottom: 0.5rem;
+}
+
+.content strong {
+    color: var(--primary);
+}
+
+.footer {
+    margin-top: 4rem;
+    padding-top: 2rem;
+    border-top: 1px solid var(--border);
+    text-align: center;
+    color: #666;
+    font-family: var(--font-mono);
+}
