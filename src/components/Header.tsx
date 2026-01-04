@@ -11,7 +11,7 @@ export default function Header() {
     const navItems = [
         { name: "Home", path: "/" },
         { name: "Blog", path: "/blog" },
-        { name: "CV", path: "/cv" },
+        { name: "About", path: "/about" },
     ];
 
     return (
@@ -19,7 +19,7 @@ export default function Header() {
             <div className={styles.container}>
                 <Link href="/" className={styles.logo}>
                     <Atom className={styles.logoIcon} size={24} />
-                    <span>Antigravity</span>
+                    <span>suawiu</span>
                 </Link>
                 <nav className={styles.nav}>
                     {navItems.map((item) => (

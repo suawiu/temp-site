@@ -15,7 +15,7 @@ export default function Hero() {
                     transition={{ duration: 0.8, ease: "easeOut" }}
                 >
                     <h1 className={styles.title}>
-                        Hello, I am <span className={styles.gradientText}>suawiu</span>
+                        Hello, I am <span className={styles.gradientText}>Suawiu</span>
                     </h1>
                 </motion.div>
 
@@ -39,8 +39,8 @@ export default function Hero() {
                     <Link href="/blog" className={styles.primaryButton}>
                         Read Blog <ArrowRight size={18} />
                     </Link>
-                    <Link href="/cv" className={styles.secondaryButton}>
-                        View CV <FileText size={18} />
+                    <Link href="/about" className={styles.secondaryButton}>
+                        About Me <FileText size={18} />
                     </Link>
                 </motion.div>
             </div>
