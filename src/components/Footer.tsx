@@ -5,7 +5,7 @@ export default function Footer() {
         <footer className={styles.footer}>
             <div className={styles.container}>
                 <p className={styles.copyright}>
-                    &copy; {new Date().getFullYear()} Antigravity. All rights reserved.
+                    &copy; {new Date().getFullYear()} Seungmin Cha. All rights reserved.
                 </p>
                 <div className={styles.links}>
                     {/* Social links will go here */}
