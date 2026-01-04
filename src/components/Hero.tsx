@@ -15,7 +15,7 @@ export default function Hero() {
                     transition={{ duration: 0.8, ease: "easeOut" }}
                 >
                     <h1 className={styles.title}>
-                        <span className={styles.gradientText}>Anti</span>gravity
+                        Hello, I am <span className={styles.gradientText}>suawiu</span>
                     </h1>
                 </motion.div>
 
@@ -25,9 +25,9 @@ export default function Hero() {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
                 >
-                    Explaining the universe, one constant at a time.
+                    This blog serves as a personal research notebook dedicated to documenting my journey and expertise in physics and other interesting fields.
                     <br />
-                    Physics, Engineering, and the thoughts in between.
+                    I aim to systematically archive my academic growth and share meaningful insights with peers in both academia and industry.
                 </motion.p>
 
                 <motion.div
