@@ -15,7 +15,7 @@ export default function Hero() {
                     transition={{ duration: 0.8, ease: "easeOut" }}
                 >
                     <h1 className={styles.title}>
-                        Hello, I am <span className={styles.gradientText}>Suawiu</span>
+                        Hello, I am <span className={styles.gradientText}>Suawiu.</span>
                     </h1>
                 </motion.div>
 
